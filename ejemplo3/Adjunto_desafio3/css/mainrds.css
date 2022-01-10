@@ -1,0 +1,253 @@
+body
+{
+	font-family: 'Roboto Slab', serif;
+	/*Ajuste el banner de forma tal que ocupe el ancho de la pantalla 
+	sea cual sea el dispositivo en el que se vea la pagina.*/
+	background-position: center;
+}
+p
+{
+	font-family: 'Roboto', sans-serif;
+	
+}
+#servicios
+{
+	text-align: center;
+	background: #f4f5f4;
+
+}
+#servicios, #empresa
+{
+	
+	padding: 3em 0;
+}
+
+#servicios .servicios h2
+{
+	font-size: 1.3em;
+	margin-bottom: 2em;
+	font-weight: 400;
+}
+#servicios h2
+{
+	font-size: 3em;
+	font-weight: 700;
+	color: #0056b8;
+	margin-bottom: .5em;
+}
+#servicios p
+{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 4em;
+}
+#servicios span
+{
+	font-size: 4em;
+	border-radius: 50%;
+	border: 1px solid #E2EAEC;
+	padding: 1em;
+	color: #f6d93c;
+}
+#servicios .col-md-3:hover span
+{
+	color: #fff;
+	background: #0056B8;
+	border: 1px solid #fff;
+	transition: all .8s ease;
+}
+/*Selector de atributos igual*/
+div [class="col-md-3"]
+{
+	cursor: pointer;
+}
+#empresa
+{
+	background: #0056b8;
+	color: #fff;
+	padding: 2em 0;
+	
+}
+#empresa p
+{
+	font-size: 1.4em;
+}
+/*Aqui el id que es la empresa en el html no tiene ninguna clase con el nombre de 
+filosofia pero para mantener el objetivo de no alterar la pagina si dicha clase existe 
+aplicaria el selector de atriutos por igual de la siguiente manera 
+#empresa (como no se si esta en un div o algo lo dejo asi)[id="filosofia"]
+{
+	text-align: center;
+	margin-top: 2em;
+	
+	padding-top: 3em;
+}*/
+#empresa .filosofia
+{
+	text-align: center;
+	margin-top: 2em;
+	
+	padding-top: 3em;
+}
+#empresa .filosofia p
+{
+	font-size: 1.3em;
+}
+#empresa h2, #empresa h3
+{
+	color: #f6d93c;
+	font-weight: 700;
+}
+#empresa h2
+{
+	font-size: 2.5em;	
+	margin: 1em 0;
+	text-align: center;
+}
+#empresa span
+{
+	font-size: 4em;
+}
+header
+{
+	left: 0;
+	padding: 2em 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	z-index: 9;
+}
+#mapa
+{
+	background: #e7e9e8;
+	text-align: center;
+}
+.panel-body
+{
+	padding: 3em;
+}
+#consulta
+{
+	padding: 2em 0;
+}
+#consulta, #contacto
+{
+	text-align: center;
+	margin: 3em 0;
+}
+#consulta h2
+{
+	font-size: 3em;
+	font-weight: 700;
+	color: #0056b8;
+	margin-bottom: .5em;
+}
+/*Selectores hermanos adyacentes*/
+#consulta h2+p
+{
+	margin-bottom: 2em;
+}
+.btn-default
+{
+	background: #0056B8;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 1em 2em;
+	margin-top: 1em;
+
+}
+#contacto
+{
+	background: #F6D93C;
+	padding: 4em 0;
+}
+#contacto span
+{
+	font-size: 3em;
+	margin: 1em 0;
+	color: #fff;
+}
+#contacto h2
+{
+	font-size: 3em;
+	font-weight: 700;
+	color: #0056b8;
+	margin-bottom: .5em;
+}
+.contacto
+{
+	font-size: 1.5em;
+}
+footer
+{
+	text-align: center;
+}
+nav li
+{
+	text-transform: uppercase;
+	margin-top: 2em;
+}
+nav a
+{
+
+	padding: .8em 1.3em;
+
+}
+nav a:hover
+{ 
+	background: #0056b8;
+	color: #fff;
+	border-radius: .5em;
+	text-decoration: none;
+}
+/* se aplico selector de Hijos directos */
+main > section > img
+{
+	border-bottom: 10px solid #F6D93C;
+}
+
+footer
+{
+	font-weight: 300;
+	position: relative;
+}
+/*Aqui en el footer esta trabajando com listas si se coloca tal cual como esta en el 
+html con selectores queda de la siguiente manera
+selector de Hijos directos
+footer > p
+{
+	font-size: 1.5em;
+	margin: 2em 0;
+}
+Selectores hermanos adyacentes
+footer p + span
+{
+	text-decoration: underline;
+	margin: 0 1em;
+	color: #666;
+}*/
+footer ul
+{
+	font-size: 1.5em;
+	margin: 2em 0;
+}
+footer li
+{
+	text-decoration: underline;
+	margin: 0 1em;
+	color: #666;
+}
+#btn-subir
+{
+	position: fixed;
+	right: 1em;
+	bottom: 1em;
+	z-index: 9999;
+	top: inherit;
+	font-size: 4em;
+	cursor: pointer;
+}
+.img-responsive{
+	width: 100%;
+}

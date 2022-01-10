@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+}
+/*Maqueta 1*/
+#s1{
+    background-color:#ee3e64 ;
+    height: 250px;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 30%;
+
+}
+.a1{
+    background-color: #f95b34;
+    height: 40px;
+    position: fixed;
+    top: 100px;
+    left: 12%;
+    width: 5%;
+}
+#s2{
+   background-color:#44accf ;
+    height: 250px;
+    position: fixed;
+    top: 0;
+    left: 70%;
+    width: 50%;
+}
+.a2{
+    background-color: #f95b34;
+    height: 40px;
+    position: fixed;
+    top: 100px;
+    left: 82%;
+    width: 5%;
+}
+#s3{
+       
+        background-color: #b7d84b;
+        height: 250px;
+        position: fixed;
+        top: 420px;
+        left: 0%;
+        width: 30%;
+}
+.a3{
+    background-color: #f95b34;
+    height: 40px;
+    position: fixed;
+    top: 550px;
+    left: 12%;
+    width: 5%;
+}
+#s4{
+    background-color: #ebde52;
+    height: 250px;
+    position: fixed;
+    top: 420px;
+    left: 70%;
+    width: 50%;
+    
+}
+.a4{
+    background-color: #f95b34;
+    height: 40px;
+    position: fixed;
+    top: 550px;
+    left: 82%;
+    width: 5%;
+}
+/*Maqueta 2*/
+h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+#logo{
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    z-index: 100;
+    width: 8%;
+    
+}
+#info{
+    height: 40px;
+    text-decoration: underline;
+    position: fixed;
+    font-size: 15px;
+    top: 30px;
+    left: 82%;
+    width: 9%;
+}
+#imagenes{
+    height: 40px;
+    position: fixed;
+    top: 68px;
+    left: 82%;
+    width: 15%;
+}
+#centro{
+    position: fixed;
+    top: 170px;
+    z-index: auto;
+}
+.navegacion{
+    top: 80px;
+    width: 900px;
+    left: 1%;
+    margin: 30px auto;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color:rgb(238, 66, 175);
+    z-index: 10;
+    position: relative;
+    border-radius: 10px;
+}
+.navegacion ul{
+    list-style: none;
+    top: 110px;
+    
+}
+.menu > li{
+    position:relative;
+    display: inline-block;
+    
+}
+.menu > li > a{
+    display: block;
+    padding: 11px 20px;
+    color:white;
+    font-family: "Open Sans";
+    text-decoration: none;
+    
+}
+.menu li a:hover{
+    color: whitesmoke;
+    
+}
+.submenu{
+    position: absolute;
+    background-color:rgb(238, 66, 175);
+    width: 100%;
+    display: none;
+    
+}
+.submenu li a{
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    block-size: auto;
+    text-align:start;
+}
+.menu li:hover .submenu {
+    display: block ;
+}
+.cho{
+    background-color:rgb(107, 50, 23);
+    block-size: 100%;
+    
+}

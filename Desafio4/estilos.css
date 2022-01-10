@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+}
+.center{
+    top: -1;
+    z-index: 0;
+    width: 100%;
+    position: relative;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
+#loguito{
+    top: 0;
+    z-index: 2;
+    position: absolute;
+    left: 70px;
+    
+}
+ul {
+    list-style-type: none;
+    z-index: 5;
+    position: absolute;
+    left: 45%;
+    top: 8%;
+  }
+  
+  li {
+    color: white;
+    float: left;
+    margin-right: 5px;
+    padding: 0 4px;
+    font-size: 15px;
+  }
+  .ye{
+      color: #fff77c;
+      margin-top: #fff77c;
+      text-decoration-line:overline;
+      
+      
+  }
+  #s1{
+      /*Aqui se aplica lo del fonde con el objetivo 3*/
+    background:  rgb(131,96,195);
+    background: linear-gradient(90deg,  rgb(131,96,195) 0%, rgb(46,191,145) 100%);
+    height: 500px;
+  }
+  #che{
+      color: white;
+      font-size: 80px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: absolute;
+      z-index: 7;
+      top: 20%;
+      left: 30%;
+  }
+  #bye{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    z-index: 7;
+    top: 33%;
+    left: 32%;
+  }
+  #boton1{
+    position: absolute;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: #fff77c;
+    border-style: solid;
+    font-size: 15px;
+    letter-spacing: 0.20em;
+    color: #fff77c;
+    top: 37%;
+    left: 32%;
+    text-align: center;
+  }
+  #boton2{
+    position: absolute;
+    width: fit-content;
+    padding: 13px 20px;
+    border-radius: 30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#fff77c ;
+    font-size: 15px;
+    letter-spacing: 0.20em;
+    color: rgb(131,96,195);
+    top: 37%;
+    left: 53%;
+    text-align: center;
+  }
+  #s2{
+      background-color: #ECEFF1;
+      height: 480px;
+  }
+  #che1{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 3;
+    top: 80%;
+    left: 45%;
+  }
+#bam{
+    background-color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding: 10px 20px;
+    z-index: 3;
+    top: 90%;
+    left: 5%;
+    text-align: center;
+    box-sizing: content-box;
+}
+.lap{
+    color:rgb(131,96,195);
+    font-size: 20px;
+}
+.lap1{
+    font-size: 13px;
+}
+#bam1{
+    background-color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding: 10px 20px;
+    z-index: 3;
+    top: 90%;
+    left: 36%;
+    text-align: center;
+    box-sizing: content-box;
+}
+#bam2{
+    background-color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding: 10px 20px;
+    z-index: 3;
+    top: 90%;
+    left: 67%;
+    text-align: center;
+    box-sizing: content-box;
+}
+#s3{
+    /*Aqui se aplica lo del fonde con el objetivo 3*/
+    background:  rgb(131,96,195);
+    background: linear-gradient(90deg,  rgb(131,96,195) 0%, rgb(46,191,145) 100%);
+    height: 170px;
+}
+#boton3{
+    z-index: 6;
+    position: absolute;
+    width: fit-content;
+    padding: 13px 20px;
+    border-radius: 30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#fff77c ;
+    font-size: 15px;
+    letter-spacing: 0.20em;
+    top: 158%;
+    color: rgb(131,96,195);
+    left: 80%;
+    text-align: center;
+  }
+  #che2{
+      color: white;
+      font-size: 40px;
+      position: absolute;
+      top: 157%;
+      left: 5%;
+      /*Aqui para cumplir con el objetivo 2 con la investigacion rotate y transform decidi
+      aplicarlo en este texto para inclinarlo un poco   */
+      -webkit-transform: rotate(1deg); 
+      -moz-transform: rotate(1deg); 
+      -ms-transform: rotate(1deg); 
+      -o-transform: rotate(1deg); 
+      transform: rotate(1deg); 
+      
+      -webkit-transform-origin: 50% 50%; 
+      -moz-transform-origin: 50% 50%; 
+      -ms-transform-origin: 50% 50%; 
+      -o-transform-origin: 50% 50%; 
+      transform-origin: 50% 50%; 
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #s4{
+    height: 350px;
+    
+  }
+  #che3{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 3;
+    top: 180%;
+    left: 42%;
+    color: rgb(102, 99, 99);
+    
+  }
+  #i1{
+    z-index: 3;
+    top: 193%;
+    left: 8%;
+    position: absolute;
+    filter: grayscale(100%);
+    transition: filter 0.5;
+  }
+  #i1:hover{
+    filter: grayscale(0%);
+  }
+  #i2{
+    z-index: 3;
+    top: 193%;
+    left: 25%;
+    position: absolute;
+    filter: grayscale(100%);
+    transition: filter 0.5;
+  }
+  #i2:hover{
+    
+    filter: grayscale(0%);
+      }
+  #i3{
+    z-index: 3;
+    top: 193%;
+    left: 42%;
+    position: absolute;
+    filter: grayscale(100%);
+    transition: filter 0.5;
+  }
+  #i3:hover{
+    
+filter: grayscale(0%);
+  }
+  #i4{
+    z-index: 3;
+    top: 193%;
+    left: 59%;
+    position: absolute;
+    transition: filter 0.5;
+    filter: grayscale(100%);
+  }
+  #i4:hover{
+    
+    filter: grayscale(0%);
+      }
+  #i5{
+    z-index: 3;
+    top: 193%;
+    left: 76%;
+    position: absolute;
+    filter: grayscale(100%);
+    transition: filter 0.5;
+  }
+  #i5:hover{
+    
+    filter: grayscale(0%);
+      }
+#s5{
+  /*Aqui se aplica lo del fonde con el objetivo 3*/
+  background:  rgb(131,96,195);
+  background: linear-gradient(90deg,  rgb(131,96,195) 0%, rgb(46,191,145) 100%);
+  height: 380px;
+}
+#loguito2{
+  top: 240%;
+  z-index: 2;
+  position: absolute;
+  left: 42%;
+}
+#foter{
+  color: white;
+  top: 268%;
+  z-index: 2;
+  position: absolute;
+  left: 32%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+#line{
+  background-color: white;
+  width: 110px;
+  height: 2px;
+  top: 266%;
+  left: 46%;
+  position: absolute;
+}

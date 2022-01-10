@@ -1,0 +1,4 @@
+Profesor hay algunos casos donde se podia usar varios selectores pero como no
+encontre en los archivos donde estaban sus Id no los pude alterar ya que no los encontraba
+en el index y mas que no queria alterar en su totalidad a la pagina pero le deje comentarios 
+para que sepa como quedaban con esos selectores

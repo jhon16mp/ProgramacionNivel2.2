@@ -1,0 +1,68 @@
+*{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body{
+    /* background: rgb(154, 154, 218); */
+    margin: 0;
+    /* display: flex; */
+}
+
+section{
+    height: 100vh;
+}
+#s1{
+    width: 20%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* background-color: rgb(46, 49, 228); */
+    /* border-right-width: 1px; 
+    border-right-color: gray;
+    border-right-style: solid; */
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    width: fit-content;
+}
+li:hover{
+    background-color: rgba(128, 128, 128, 0.308);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+#s1 div{
+    width: fit-content;
+    padding: 15px 55px;
+    background-color: #1A91DA;
+    border-radius: 30px;
+    color: white;
+}
+#relative{
+    /* position: relative; */
+    /* La prioridad la tiene las propiedades top y left, en su defecto lee con prioridad a bottom y right */
+    /* top: 100px; */
+    /* left: 100px; */
+}
+#s2{
+    float: left;
+    width: 50%;
+    border-right: 1px solid rgba(128, 128, 128, 0.205);
+    border-left: 1px solid rgba(128, 128, 128, 0.205);
+    /* background-color: rgb(13, 197, 59); */
+}
+#s3{
+    float: left;
+    width: 30%;
+    /* background-color: rgb(226, 142, 32) */
+}
+p{
+    /* color: white;
+    padding: 20px 0px;
+    margin: 10px 20px 30px 40px; */
+}

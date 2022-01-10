@@ -1,0 +1,7 @@
+Colores de las cajas:
+
+-rojo: #ee3e64
+-azul: #44accf
+-verde: #b7d84b
+-amarillo: #ebde52
+-anaranjado: #f95b34
